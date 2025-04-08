@@ -55,7 +55,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import type { Task } from '../types';
+import type { Task } from '../../types';
 
 const props = defineProps<{ task: Task }>();
 const emit = defineEmits(['delete', 'update']);

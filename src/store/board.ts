@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import type { Task } from '../types';
+import type { Task } from '../types/index.js';
 
 export const useBoardStore = defineStore('board', {
   state: () => ({

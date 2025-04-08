@@ -44,6 +44,8 @@
     board.columns.find(col => col.id === props.column.id)?.tasks.push({
       id: Date.now().toString(),
       title: newTask.value,
+      description: '', 
+      status: 'todo' 
     });
     newTask.value = '';
   }

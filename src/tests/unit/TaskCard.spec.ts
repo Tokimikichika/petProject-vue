@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
 import TaskCard from '../../components/layout/TaskCard.vue';
 import type { Task } from '../../types';
